@@ -14,8 +14,14 @@ enableRobotsTXT = true
 [languages]
   [languages.en]
     title = "fryposto"
+    languageName = "English"
     weight = 1
     contentDir = "content/en"
+  [languages.bn]
+    title = "fryposto"
+    languageName = "Bengali"
+    weight = 1
+    contentDir = "content/bn"
 
 [sitemap]
   changefreq = "monthly"

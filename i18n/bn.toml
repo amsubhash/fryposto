@@ -1,0 +1,50 @@
+
+[more]
+other = "আরও"
+
+[allTitle]
+other = "সব {{.Title }}"
+
+[recentTitle]
+other = "সাম্প্রতিক {{.Title }}"
+
+[readMore]
+other = "আরো পড়ুন"
+
+[by]
+other = "দ্বারা"
+
+[whatsInThis]
+other = "কি আছে এর মধ্যে {{ .Type }}"
+
+[related]
+other = "সম্পর্কিত"
+
+[yourName]
+other = "তোমার নাম"
+
+[emailAddress]
+other = "ইমেইল ঠিকানা"
+
+[message]
+other = "বার্তা"
+
+[emailRequiredNote]
+other = "একটি ইমেল ঠিকানা প্রয়োজন."
+
+[send]
+other = "পাঠান"
+
+[taxonomyPageList]
+other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
+
+[readingTime]
+one = "এক মিনিটে পড়ুন"
+other = "{{ .Count }} মিনিটে পড়ুন"
+
+[wordCount]
+one = "One word"
+other = "{{ .Count }} শব্দ"
+
+[pageTitle]
+other = "{{ .Name }} পৃষ্ঠা"
