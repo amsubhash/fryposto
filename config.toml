@@ -1,0 +1,37 @@
+baseURL = 'https://fryposto.com/'
+languageCode = 'en-us'
+title = 'fryposto'
+theme = 'ananke'
+
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 10 
+googleAnalytics = ""
+enableRobotsTXT = true
+
+
+[languages]
+  [languages.en]
+    title = "fryposto"
+    weight = 1
+    contentDir = "content/en"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = ""
+  author = "fryposto"
+  favicon = "/images/logo/logo-solid-150x150.ico"
+  site_logo = "images/logo/logo-transparent-150x150.png"
+  description = "Welcome to Fryposto, your go-to destination for authentic Bengali cuisine! Our blog is dedicated to sharing the rich culinary heritage of Bengal with food enthusiasts around the world. From classic dishes like Aloo Posto and Shorshe Ilish to innovative twists on traditional recipes, we bring you a diverse range of Bengali delicacies that are sure to tantalize your taste buds"
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+
+[[params.ananke_socials]]
+name = "youtube"
+url = "https://youtube.com/@fryposto"
