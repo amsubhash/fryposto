@@ -35,3 +35,9 @@ enableRobotsTXT = true
 [[params.ananke_socials]]
 name = "youtube"
 url = "https://youtube.com/@fryposto"
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/profile.php?id=100091623585680"
+[[params.ananke_socials]]
+name = "instagram"
+url = "https://www.instagram.com/fryposto"
