@@ -6,6 +6,9 @@ on:
       - main  # Set a branch name to trigger deployment
   pull_request:
 
+env:
+  HUGO_ENV: production
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
@@ -25,7 +28,7 @@ jobs:
           hugo-version: '0.110.0'
 
       - name: Build
-        run: HUGO_ENV=production hugo --minify
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
